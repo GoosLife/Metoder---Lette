@@ -90,7 +90,7 @@ namespace Metoder
         /// <param name="x">A number</param>
         /// <param name="y">Another number</param>
         /// <returns></returns>
-        public static string DoMath(int x, int y)
+        private static string DoMath(int x, int y)
         {
             string output;
 
@@ -110,7 +110,7 @@ namespace Metoder
         /// <param name="aPow2"></param>
         /// <param name="bPow2"></param>
 
-        public static string Pythagoras(double aPow2, double bPow2)
+        private static string Pythagoras(double aPow2, double bPow2)
         {
             double a, b, c;
             string output;
@@ -139,7 +139,7 @@ namespace Metoder
         /// </summary>
         /// <param name="name"></param>
         /// <param name="age"></param>
-        public static string Age(string name, byte age)
+        private static string Age(string name, byte age)
         {
             if (age < 3) // age < 3
             {
